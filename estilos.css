@@ -993,6 +993,19 @@ textarea {
   .backHeaderLaboratorio {
     height: 75vh;
   }
+  .mainLab img {
+    width: 350px;
+  }
+  .rounded {
+    -webkit-transition: -webkit-transform .1s;
+    transition: -webkit-transform .1s;
+    transition: transform .1s;
+    transition: transform .1s, -webkit-transform .1s;
+  }
+  .rounded:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
   /* trabajos */
   .backHeaderTrabajos {
     height: 75vh;

@@ -795,6 +795,15 @@ textarea{
     .backHeaderLaboratorio{
         height: 75vh;
     }
+    .mainLab img{
+        width: 350px;
+    }
+    .rounded{
+        transition: transform .1s;
+    }
+    .rounded:hover{
+        transform: scale(1);
+    }
     /* trabajos */
     .backHeaderTrabajos{
         height: 75vh;
