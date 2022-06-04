@@ -926,8 +926,15 @@ textarea {
     border-top: 1px solid #4d4d4d;
   }
   /* index */
+  .backHeaderIndex {
+    height: 75vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.753)), to(rgba(0, 0, 0, 0))), url(img/bannerindexr.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0)), url(img/bannerindexr.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
   .sectionNosotros {
-    height: 60vh;
+    height: 70vh;
   }
   .boxNosotros {
     height: 100%;
@@ -942,9 +949,12 @@ textarea {
     text-align: left;
   }
   /* laboratorio */
+  .backHeaderLaboratorio {
+    height: 75vh;
+  }
   /* trabajos */
   .backHeaderTrabajos {
-    height: 60vh;
+    height: 70vh;
   }
   .cardText {
     border-radius: 0.25rem;
