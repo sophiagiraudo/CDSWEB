@@ -909,6 +909,14 @@ textarea {
 }
 
 @media (max-width: 576px) {
+  .navbar-nav {
+    background-color: #0b0b0bd9;
+    height: 70vh;
+  }
+  ul.navbar-nav li a.nav-link {
+    text-align: center;
+    font-size: 40px;
+  }
   /* footer */
   .mapa {
     margin-top: 10px;
@@ -917,9 +925,14 @@ textarea {
     border-bottom: 1px solid #4d4d4d;
     border-top: 1px solid #4d4d4d;
   }
-  /*index*/
-  .backHeaderIndex {
-    height: 70vh;
+  /* index */
+  .sectionNosotros {
+    height: 60vh;
+  }
+  .boxNosotros {
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
   }
   /* servicios */
   .jumbotronServ {
@@ -929,9 +942,6 @@ textarea {
     text-align: left;
   }
   /* laboratorio */
-  .backHeaderLaboratorio {
-    height: 70vh;
-  }
   /* trabajos */
   .backHeaderTrabajos {
     height: 60vh;
