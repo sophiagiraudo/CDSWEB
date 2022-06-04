@@ -625,6 +625,31 @@ textarea{
 }
 
 /* ------------------------------MEDIA QUERIES-------------------------- */
+@media (max-width: 992px) {
+    .sectionNosotros{
+        background:url(img/Nosotros2.jpeg);
+        background-size: cover;
+        background-position: bottom;
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .boxNosotros{
+        position: relative;
+        height: 90%;
+        padding: 20px;
+        background: rgba(255, 253, 247, 0.436);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        animation: fadeInUp;
+        animation-duration: 2s;
+        overflow: auto;
+        margin: auto;
+        object-fit: contain;
+    }
+}
 @media (max-width: 768px) { 
     .navbar-nav{
         background-color: $color2;
@@ -637,7 +662,6 @@ textarea{
         height: 85vh;
     }
     .sectionNosotros{
-        padding: 5px;
         background:url(img/Nosotros2.jpeg);
         background-size: cover;
         background-position: bottom;
@@ -646,6 +670,7 @@ textarea{
         flex-direction: row;
         align-content: center;
         align-items: center;
+        padding: 5px;
     }
     .boxNosotros{
         position: relative;
@@ -726,7 +751,7 @@ textarea{
 @media (max-width: 576px) { 
     .navbar-nav{
         background-color: $color2;
-        height: 70vh;
+        height: 60vh;
     }
     ul.navbar-nav li a.nav-link{
         text-align: center;
@@ -742,7 +767,7 @@ textarea{
     }
     /* index */
     .backHeaderIndex {
-        height: 75vh;
+        height: 80vh;
         background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.616)), to(rgba(0, 0, 0, 0))), url(img/bannerindexr.jpeg);
         background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0)), url(img/bannerindexr.jpeg);
         background-size: cover;
@@ -769,7 +794,7 @@ textarea{
     }
     /* trabajos */
     .backHeaderTrabajos{
-        height: 70vh;
+        height: 75vh;
     }
     .cardText{
         border-radius: 0.25rem;
